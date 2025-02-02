@@ -5,6 +5,6 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn --cwd ./backend-web && yarn --cwd ./frontend-web && yarn --cwd ./frontend-web build",
-    "start": "yarn --cwd ./backend-web start"
+    "start": "yarn --cwd ./backend-web prod"
   }
 }
